@@ -1,2 +1,2 @@
-# HKim
+# Embedded controller 
 Hanmin Kim
