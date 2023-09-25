@@ -60,4 +60,7 @@ void setup(void)
 	GPIO_pupd(GPIOA, LED_PIN, EC_PU);
 	GPIO_otype(GPIOA, LED_PIN, 0);
 	
+        GPIO_pupd(GPIOA, LED_PIN, EC_PU);     // Pull up
+	GPIO_otype(GPIOA, LED_PIN, EC_OPEN_DRAIN);        // Open- Drain
+	GPIO_ospeed(GPIOA, LED_PIN, EC_MEDIUM);           // medium speed
 }
