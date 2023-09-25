@@ -75,4 +75,21 @@ void setup(void)
 	GPIO_init(GPIOA, 6, OUTPUT);    // calls RCC_GPIOA_enable()	
 	GPIO_init(GPIOA, 7, OUTPUT);    // calls RCC_GPIOA_enable()	
 	GPIO_init(GPIOB, 6, OUTPUT);    // calls RCC_GPIOB_enable()
+
+        GPIO_pupd(GPIOA, LED_PIN, EC_PU);                // Pull up
+	GPIO_otype(GPIOA, LED_PIN, EC_PUSH_PULL);        // push pull
+	GPIO_ospeed(GPIOA, LED_PIN, EC_MEDIUM);          // medium speed
+	
+	GPIO_pupd(GPIOA, 6, EC_PU);                      // Pull up
+	GPIO_otype(GPIOA, 6, EC_PUSH_PULL);              // push pull
+	GPIO_ospeed(GPIOA, 6, EC_MEDIUM);                // medium speed
+	
+	GPIO_pupd(GPIOA, 7, EC_PU);                      // Pull up
+	GPIO_otype(GPIOA, 7, EC_PUSH_PULL);              // push pull
+	GPIO_ospeed(GPIOA, 7, EC_MEDIUM);                // medium speed
+	
+	GPIO_pupd(GPIOB, 6, EC_PU);                      // Pull up
+	GPIO_otype(GPIOB, 6, EC_PUSH_PULL);              // push pull
+	GPIO_ospeed(GPIOB, 6, EC_MEDIUM);                // medium speed
+	
 }
