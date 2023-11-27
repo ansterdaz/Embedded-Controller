@@ -1,2 +1,0 @@
-# Embedded controller 
-Hanmin Kim
