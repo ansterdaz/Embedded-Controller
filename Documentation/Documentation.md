@@ -19,7 +19,21 @@ OS: 					WIn10
 MCU:  				STM32F411RE, Nucleo-64
 
 
+---
 
+[TOC]
+
+  * [GPIO Digital In/Out](#gpio-digital-inout)
+    + [Header File](#header-file)
+    + [GPIO_init\(\)](#gpio_init)
+    + [GPIO_mode\(\)](#gpio_mode)
+    + [GPIO_write\(\)](#gpio_write)
+    + [GPIO_read\(\)](#gpio_read)
+    + [GPIO_ospeed\(\)](#gpio_ospeed)
+    + [GPIO_otype\(\)](#gpio_otype)
+    + [GPIO_pupd\(\)](#gpio_pupd)
+
+---
 
 
 ## GPIO Digital In/Out 
