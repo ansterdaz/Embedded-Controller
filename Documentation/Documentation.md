@@ -32,7 +32,15 @@ MCU:  				STM32F411RE, Nucleo-64
     + [GPIO_ospeed\(\)](#gpio_ospeed)
     + [GPIO_otype\(\)](#gpio_otype)
     + [GPIO_pupd\(\)](#gpio_pupd)
-
+ * [EXTI](#gpio-digital-inout)
+    + [Header File](#header-file)
+    + [GPIO_init\(\)](#exti_init())
+    + [GPIO_mode\(\)](#gpio_mode)
+    + [GPIO_write\(\)](#gpio_write)
+    + [GPIO_read\(\)](#gpio_read)
+    + [GPIO_ospeed\(\)](#gpio_ospeed)
+    + [GPIO_otype\(\)](#gpio_otype)
+    + [GPIO_pupd\(\)](#gpio_pupd)
 ---
 
 
